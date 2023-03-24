@@ -1,0 +1,170 @@
+body{
+    background-color:rgb(221, 215, 215);
+    /* overflow-x: hidden; */
+}
+section{
+    /* display: grid ;
+    grid-template-columns:  1fr ifr; */
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2%;
+    background-color: rgb(51, 50, 50);
+    font-weight: 900;
+    color: white;
+    padding: 1% 0%;
+    /* margin: 2% 0%; */
+  
+}
+a{
+    padding: 50px;
+    gap: 5%;
+    margin: 20% 0%;
+}
+#Nuro{
+    font-size: x-large;
+    font-weight: bolder;
+    color: royalblue;
+
+}
+
+#navbutton{
+    border-radius: 30px;
+    color: rgb(6, 50, 184);
+    /* padding: 20px; */
+    gap: 5%;
+    padding: 5px 10px;
+    /* margin-left: 50%; */
+
+
+}
+.split{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    width: 10px;
+    margin-left: 5%;
+    margin-right: 2%;
+   
+}
+.section{
+    display: flex;
+}
+#imags{
+    height: 90px;
+    width: 120px;
+    margin-left: 2%;
+  
+}
+#imags1{
+    height: 100px;
+    width: 120px;
+    margin-left: 2%;
+   
+
+}
+#imags2{
+    height: 90px;
+    width: 120px;
+    margin-left: 2%;  
+    
+
+}
+#imags3{
+    height: 100px;
+    width: 120px;
+    margin-left: 2%;
+      
+   
+
+}
+#imags4{
+    height: 100px;
+    width: 110px;  
+    margin-left: 2%;
+    /* margin: 50%  50% 50% 0%; */
+
+}
+#imags5{
+    height: 100px;
+    width: 120px; 
+    margin-left: 2%; 
+ 
+
+}
+#imags6{
+    height: 100px;
+    width: 120px; 
+    margin-left: 2%;
+  
+ 
+}
+#imags7{
+    height: 100px;
+    width: 120px; 
+   
+
+}
+#imags8{
+    height: 100px;
+    width: 110px;  
+    margin-left: 2%;
+   
+   
+
+}
+#imags9{
+    height: 100px;
+    width: 110px; 
+    margin-left: 2%; 
+   
+
+}
+
+.imgs{
+   
+}
+.servicecontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.services{
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr);
+    list-style: none;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+}
+.menu{
+    height: 300px;
+    width: 400px;
+    padding: 5px;
+    background-color: white;
+    margin-top: 15%;
+}
+.button{
+    padding: 15px 35px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(8, 44, 150);
+    border-color: deepskyblue;
+    margin: 3% 5% 0% 0%;
+
+}
+span{
+    margin-left: 10%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style: none;
+    background-color:  rgb(247, 241, 241);
+    margin-top: 1%;
+}
