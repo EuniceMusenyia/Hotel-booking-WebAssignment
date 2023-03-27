@@ -168,3 +168,54 @@ footer{
     background-color:  rgb(247, 241, 241);
     margin-top: 1%;
 }
+
+@media screen and (max-width: 800px){
+    .about {
+        flex-basis: 100%;
+        background-color: sandybrown ;
+        flex-direction: column;
+        grid-column: auto;
+       
+        
+        
+    }
+    
+    ul{
+        flex-direction: row;
+        gap: 1%;
+       
+    
+    }
+    img{
+    
+        max-width: 10px;
+        max-height: 10px;
+    
+    }
+    body{
+        background-color: sandybrown ;
+     
+    
+    }
+    footer{
+        /* justify-content: center;
+        margin: 0%; */
+    
+    }
+    
+    }
+    
+    @media screen  and(max-width: 1200px){
+        .about{
+            flex-basis: 100%;
+            background-color: rgb(204, 214, 211);
+        }
+        img{
+    
+            max-width: 10px;
+            max-height: 10px;
+        
+        }
+       
+        
+    }
