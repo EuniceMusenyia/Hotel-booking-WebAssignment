@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(221, 215, 215);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2%;
+    background-color: rgb(51, 50, 50);
+    font-weight: 900;
+    color: royalblue;
+    padding: 1% 0%;
+  
+}
+a{
+    padding: 50px;
+    gap: 5%;
+    margin: 20% 0%;
+    color: wh;
+}
+#Nuro{
+    font-size: x-large;
+    font-weight: bolder;
+    color: royalblue;
+
+}
+
+
+#navbutton{
+    border-radius: 30px;
+    color: rgb(6, 50, 184);
+    gap: 5%;
+    padding: 5px 10px;
+
+}
+
+.contactus{
+    text-align: center;
+}
+.label{
+    display :flex;
+   gap: 20%;
+   margin-top: 3%;
+}
+
+label{
+
+    margin-top: 3%;
+   
+}
+input{
+    margin: 3% 0%; 
+    padding: 3%;
+}
+#text{
+    padding: 50px 45px;
+    
+}
+.submitbutton{
+    padding: 10px 20px;
+   background-color:  royalblue;
+   margin-left: 2%;
+   margin: 2% 0%
+}
+footer{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    background-color:  rgb(247, 241, 241);
+    margin-top: 1%;
+   
+
+}
+li{ 
+    list-style: none;
+}
+h3{
+    font-size: xx-large;
+   
+}
+
+@media screen and (max-width: 800px){
+    
+    ul{
+        flex-direction: row;
+        gap: 1%;
+       
+    
+    }
+    img{
+    
+        max-width: 100px;
+        max-height: 100px;
+    
+    }
+    body{
+        background-color: sandybrown ;
+     
+    
+    }
+   
+    
+    }
+    
+    @media screen  and(max-width: 1200px){
+       
+        img{
+    
+            max-width: 10px;
+            max-height: 10px;
+        
+        }
+       
+        
+    }
