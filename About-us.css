@@ -83,7 +83,7 @@ footer{
 }
 
 @media screen and (max-width: 800px){
-.about {
+/* .about {
     flex-basis: 100%;
     background-color: sandybrown ;
     flex-direction: column;
@@ -91,6 +91,19 @@ footer{
    
     
     
+} */
+ul{
+    display:flex ;
+    flex-direction: column;
+    gap: 1%;
+    /* display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    list-style: none; */
+      }
+.about{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  
 }
 
 ul{

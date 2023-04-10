@@ -82,34 +82,51 @@ h3{
 @media screen and (max-width: 800px){
     
     ul{
-        flex-direction: row;
+        display:flex ;
+        flex-direction: column;
         gap: 1%;
+        /* display: grid;
+       grid-template-columns: repeat(3, 1fr);
+        list-style: none; */
+          }
+           
        
-    
+    .label{
+        display: flex;
+        flex-direction: column;
     }
-    img{
     
-        max-width: 100px;
-        max-height: 100px;
-    
-    }
+   
     body{
         background-color: sandybrown ;
      
     
     }
+    /* nav{
+        display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+      } */
+       
+    footer{
+        display: grid;
+   grid-template-columns: repeat(1, 1fr);
+    list-style: none;
+      }
+      .contactus{
+        text-align: left;
+      }
+       
    
-    
-    }
+}
     
     @media screen  and(max-width: 1200px){
        
-        img{
-    
-            max-width: 10px;
-            max-height: 10px;
-        
-        }
+      footer{
+        display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+      }
        
         
     }
